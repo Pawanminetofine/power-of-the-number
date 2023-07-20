@@ -1,0 +1,13 @@
+#include <stdio.h>
+int n,a,product=1;
+int main() {
+    printf("enter the value of the n\n");
+    scanf("%d",&n);
+    printf("enter the value of the power of n in the forn of a");
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+        product=product*n;
+    }
+        printf("%d",product);
+    return 0;
+}
